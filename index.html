@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <form class="studentDetails">
+            <h1>STUDENT FORM</h1>
+            <table class="data">
+                <tr>
+                    <td>Name</td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input id="age" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td class="gender">
+                        <input id="male" type="radio" name="gender" value="Male">Male
+                        <input id="female" type="radio" name="gender" value="Female">FeMale
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td>
+                        <select id="course">
+                            <option>JavaScript</option>
+                            <option>PYTHON</option>
+                            <option>JAVA</option>
+                            <option>Node JS</option>
+                            <option>React JS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input id="email" type="email"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="save">Save</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <table id="outputTable">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>GENDER</th>
+                    <th>COURSE</th>
+                    <th>EMAIL</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- New rows will be added here -->
+            </tbody>
+        </table>
+
+    </center>
+</body>
+<script src="script.js"></script>
+</html>

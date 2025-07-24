@@ -1,0 +1,42 @@
+.data
+{
+    border:2px solid black;
+    width:300px;
+}
+td
+{
+    border:2px solid gray;
+    font-weight:bold;
+}
+input
+{
+    width:98%;
+}
+.gender input
+{
+    width:10px;
+}
+select
+{
+    width:100%;
+}
+#save
+{
+    width:100%;
+    background-color: aqua;
+}
+#outputTable
+{
+    border:2px solid black;
+    width:40%;
+    margin-top:30px;
+}
+th
+{
+    border:2px solid black;
+}
+.clear
+{
+    background-color:red;
+    width:100%;
+}
