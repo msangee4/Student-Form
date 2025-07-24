@@ -1,4 +1,4 @@
-# Student Details Form 📝
+# Student Details📝
 
 This is a simple web application that allows users to enter and manage student details using HTML, CSS, and JavaScript. The form captures information like name, age, gender, course, and email, and displays the data in a table format with the ability to delete entries.
 
