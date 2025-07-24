@@ -17,10 +17,10 @@ This is a simple web application that allows users to enter and manage student d
 ## 📂 How to Use
 
 1. Clone the repository:
-   https://github.com/msangee4/Student-Form.git
-2. Open the `index.html` file in your browser.
-3. Fill out the form and click **Save** to add student details.
-4. Use the **Delete** button to remove any row from the table.
+    https://msangee4.github.io/Student-Form/
+3. Open the `index.html` file in your browser.
+4. Fill out the form and click **Save** to add student details.
+5. Use the **Delete** button to remove any row from the table.
 
 ## 📁 Project Structure
 
