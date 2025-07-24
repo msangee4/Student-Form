@@ -1,5 +1,3 @@
-# Student-Form
-
 # Student Details Form 📝
 
 This is a simple web application that allows users to enter and manage student details using HTML, CSS, and JavaScript. The form captures information like name, age, gender, course, and email, and displays the data in a table format with the ability to delete entries.
@@ -19,20 +17,15 @@ This is a simple web application that allows users to enter and manage student d
 ## 📂 How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/student-details-form.git
-````
-
+   https://github.com/msangee4/Student-Form.git
 2. Open the `index.html` file in your browser.
 3. Fill out the form and click **Save** to add student details.
 4. Use the **Delete** button to remove any row from the table.
 
 ## 📁 Project Structure
 
-```
 student-details-form/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-```
